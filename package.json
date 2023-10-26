@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "sample implementation of JSON Web Token",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": " <profe marce/>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
